@@ -110,6 +110,9 @@ nav a:hover {
     .dropdown-content {
         right: -50% !important;
     }
+    .logo img {
+        width: 35%;
+    }
     .menu-icon {
         display: block;
         text-align: right;
