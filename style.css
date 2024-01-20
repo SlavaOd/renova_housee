@@ -138,8 +138,25 @@ nav a:hover {
     .turnkey, .design {
         margin: 0 auto;
         margin-bottom: 15px;
-        width: 80% !important;
+        width: 90% !important;
     }
+
+    .turnkey button {
+       width: 300px !important;
+       height: 50px !important;
+    }
+
+    .design button {
+        width: 300px !important;
+        height: 50px !important;
+     }
+     .main_video {
+        width: 90% !important;
+     }
+     .prices_items {
+        flex-direction: column;
+     }
+     
     .footer {
         flex-direction: column;
     }
@@ -228,7 +245,8 @@ nav a:hover {
     margin-bottom: 10%;
     font-size: 40px;
     color: rgb(236, 163, 15);
-    opacity: 0.5;
+    opacity: 0.7;
+    text-shadow: 1px 1px 1px #000;
 }
 
 .turnkey button {
@@ -257,7 +275,8 @@ nav a:hover {
     margin-bottom: 10%;
     font-size: 40px;
     color: rgb(236, 163, 15);
-    opacity: 0.5;
+    opacity: 0.7;
+    text-shadow: 1px 1px 1px #000;
 }
 
 .design button {
