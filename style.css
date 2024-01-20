@@ -121,6 +121,16 @@ nav a:hover {
     .work_us h2 {
         font-size: 15px;
     }
+    .compleks {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .turnkey, .design {
+        margin: 0 auto;
+        margin-bottom: 15px;
+        width: 60%;
+    }
     .footer {
         flex-wrap: wrap;
     }
