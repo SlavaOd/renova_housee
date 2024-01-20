@@ -90,11 +90,11 @@ nav a:hover {
     margin-left: auto;
 }
 
-@media only screen and (max-width: 768px) {
-    .menu-icon {
-        display: block;
-    }
-
+    @media only screen and (max-width: 431px) {
+        .weapper {
+            width: 100%;
+            margin: 0;
+        }
     nav {
         display: none;
         flex-direction: column;
@@ -103,6 +103,11 @@ nav a:hover {
         background-color: #333;
         top: 60px;
         left: 0;
+    }
+    .menu-icon {
+        display: block;
+        text-align: right;
+        padding-right: 10px;
     }
 
     nav.show {
@@ -113,20 +118,22 @@ nav a:hover {
         width: 100%;
         text-align: center;
     }
+    .footer {
+        flex-wrap: wrap;
+    }
 }
 
+/* @media only screen and (max-width: 430px) {
+    .menu-icon {
+        display: block;
+    }
+} */
 
 /* стили для главной картинки  */
 
-.main-section {
-    position: relative;
-    text-align: center;
-}
-
 .background-image {
-    position: relative;
+    /* position: relative; */
     height: 500px;
-    /* overflow: hidden; */
     background-image: url(main_imgtop.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -134,26 +141,19 @@ nav a:hover {
 
 }
 
-.background-image img {
-    width: 100%;
-    display: block;
-    width: 100%; /* Гарантирует, что изображение внутри блока будет 100% ширины */
-    height: auto; /* Сохраняет пропорции изображения */
-    display: block;
-}
-
 .content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(243, 183, 19); /* Цвет текста */
+    color: rgb(243, 183, 19); 
+    border-top: 1px solid transparent;
 }
 
 .content h2 {
     font-size: 50px;
     margin-bottom: 20px;
-    width: 700px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding-top: 10%;
+    width: 100%;
     text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
 }
 
@@ -163,7 +163,9 @@ nav a:hover {
     padding: 10px 20px;
     font-size: 1em;
     text-decoration: none;
-    margin-top: 30%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10%;
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -417,3 +419,105 @@ img {
     text-decoration: none;
     margin: 0 0 20px 0;
 }
+
+
+/* Стили для ширин экрана от 320px до 767px
+@media only screen and (max-width: 767px) {
+    .weapper {
+      width: 100%;
+    }
+  
+    nav {
+      margin-right: 0;
+    }
+  
+    .menu-icon {
+      margin-right: 0;
+    }
+  
+    .main-section {
+      background-size: auto 100%;
+    }
+  
+    .content h2 {
+      font-size: 30px;
+    }
+  
+    .call-button {
+      margin-top: 10%;
+    }
+  
+    .compleks div {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .turnkey h2,
+    .design h2 {
+      font-size: 30px;
+      margin-top: 5%;
+      margin-bottom: 5%;
+    }
+  
+    .turnkey button,
+    .design button {
+      margin-top: 5%;
+      margin-bottom: 10%;
+      width: 80%;
+    }
+  
+    .prices_items {
+      flex-direction: column;
+    }
+  
+    .prices_items_first,
+    .prices_items_twice {
+      text-align: center;
+    }
+  
+    .carousel-container {
+      max-width: 100%;
+      margin-top: 10%;
+    }
+  
+    .footer {
+      flex-direction: column;
+    }
+  
+    .footer div {
+      width: 100%;
+      text-align: center;
+      padding: 20px 0;
+    }
+  
+    .footer_logo img {
+      width: 70%;
+    }
+  
+    .contact {
+      margin-top: 20px;
+    }
+  } */
+  
+  /* Стили для ширин экрана от 768px до 991px */
+  /* @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .weapper {
+      width: 90%;
+    }
+  
+    .main_video {
+      width: 70%;
+    }
+  
+    .carousel-container {
+      max-width: 600px;
+    }
+  
+    .footer div {
+      width: 30%;
+    }
+  
+    .footer_logo img {
+      width: 100%;
+    }
+  } */
