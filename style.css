@@ -120,7 +120,7 @@ nav a:hover {
         background-image: url(./img/logo.png);
         background-size: contain;
         background-repeat: no-repeat;
-        background-position: 10px center;
+        background-position: 20px center;
     }
 
     .menu-icon img {
