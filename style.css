@@ -117,6 +117,13 @@ nav a:hover {
         display: block;
         text-align: right;
         padding-right: 10px;
+        background-image: url(./img/logo.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .menu-icon img {
+        height: 1   0px;
     }
 
     nav.show {
@@ -155,6 +162,9 @@ nav a:hover {
      }
      .prices_items {
         flex-direction: column;
+     }
+     .contact,.info,.compan_name {
+        text-align: center !important;
      }
      
     .footer {
