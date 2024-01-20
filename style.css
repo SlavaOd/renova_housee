@@ -118,8 +118,14 @@ nav a:hover {
         width: 100%;
         text-align: center;
     }
+    .work_us h2 {
+        font-size: 15px;
+    }
     .footer {
         flex-wrap: wrap;
+    }
+    .footer div {
+        width: 100%;
     }
 }
 
