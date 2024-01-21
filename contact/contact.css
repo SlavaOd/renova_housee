@@ -4,10 +4,25 @@ body {
   font-family: Arial, sans-serif;
   overflow-x: hidden;
   background-color: #00282a; }
+  body nav .contact {
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size: 25px; }
   body .weapper {
     width: 90%;
     margin: auto;
-    background-color: #fff;
-    border: 2px solid red; }
+    background-color: #00282a; }
+  body .main_block h1 {
+    color: #fff;
+    text-align: center; }
+  body .main_block p {
+    color: #fff;
+    text-align: center;
+    display: block;
+    width: 400px;
+    margin: 0 auto; }
+  body .footer {
+    border: 1px solid transparent;
+    text-align: center; }
 
 /*# sourceMappingURL=contact.css.map */
