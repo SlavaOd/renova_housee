@@ -1,0 +1,141 @@
+header {
+    background-color: #00282a;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* margin-right: 100px; */
+}
+
+.logo {
+    text-decoration: none;
+    margin-right: auto;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav a {
+    color: #fc6;
+    text-decoration: none;
+    padding: 10px 10px;
+    margin: 0 7px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #00373a !important;
+    color: rgb(245, 169, 18);
+}
+
+.burger_butt {
+    font-size: 35px;
+}
+
+.logo_none {
+    display: none;
+}
+
+nav a:hover {
+    background-color: #00282a;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.arrow {
+    position: absolute;
+    right: 1px;
+    top: -1px;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #00282a;
+    min-width: 160px;
+    z-index: 1;
+    padding-bottom: 2px;
+    
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: #fc6;
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+    border-bottom: 1px solid #fc6;
+    border-top: 1px solid #fc6;
+    background-color: inherit;
+}
+
+.dropdown-content a:hover {
+    background-color: #555;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    color: white;
+    margin-left: auto;
+}
+
+
+@media only screen and (max-width: 431px) {
+    .weapper {
+        width: 100%;
+        margin: 0;
+    }
+nav {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    background-color: #333;
+    top: 60px;
+    left: 0;
+}
+.show {
+    background-color: #00282a;
+}
+.dropdown-content {
+    right: -36% !important;
+}
+.logo img {
+    width: 35%;
+}
+.menu-icon {
+    display: block;
+    text-align: right;
+    padding-right: 10px;
+    background-image: url(./img/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 20px center;
+}
+
+.menu-icon img {
+    height: 1   0px;
+}
+
+nav.show {
+    display: flex;
+}
+
+nav a {
+    width: 100%;
+    text-align: center;
+}
+}
