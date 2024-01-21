@@ -78,6 +78,10 @@ body {
     border-top: 1px solid transparent;
 }
 
+.content a {
+    text-decoration: none;
+}
+
 .content h2 {
     font-size: 50px;
     margin-bottom: 20px;
@@ -91,9 +95,6 @@ body {
 
 .call-button {
     background-color: #fff; 
-    color: #333;
-    padding: 10px 20px;
-    font-size: 1em;
     text-decoration: none;
     display: block;
     margin: 0 auto;
@@ -101,8 +102,6 @@ body {
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
-}
-.call-button {
     color: rgb(242, 165, 11) ;
     width: 220px ;
     height: 100px ;
@@ -113,7 +112,6 @@ body {
     opacity: 0.7;
     border-radius: 20px;
 }
-
 .call-button:hover {
     background-color: #ccc; 
 }
