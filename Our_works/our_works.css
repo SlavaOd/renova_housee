@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+  background-color: #00282a; }
+  body .weapper {
+    width: 90%;
+    margin: auto;
+    background-color: #fff; }
+    body .weapper .main_block .gallery_block {
+      display: flex;
+      flex-wrap: wrap; }
+      body .weapper .main_block .gallery_block .gallery_card {
+        width: 23%;
+        height: 350px;
+        border: 2px solid red;
+        box-sizing: border-box;
+        margin: 1%;
+        border: 1px solid #000; }
+
+@media only screen and (max-width: 431px) {
+  .weapper {
+    width: 100%;
+    margin: auto;
+    background-color: #fff; }
+    .weapper .main_block .gallery_block .gallery_card {
+      width: 90% !important;
+      margin-right: 5% !important;
+      margin-left: 5% !important; } }
+
+/*# sourceMappingURL=our_works.css.map */
