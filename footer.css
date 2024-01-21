@@ -1,0 +1,54 @@
+.footer {
+    display: flex;
+    border-bottom: 1px solid #fff;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+.footer div {
+    display: inline-block;
+    width: 33%;
+    color: #fff;
+    background-color: #00282a;
+    padding: 30px;
+
+}
+
+.footer_logo img {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 30px;
+    cursor: pointer;
+    margin-bottom: 20%;
+}
+
+.contact a {
+    padding-left: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.info a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 0 20px 0;
+}
+
+
+@media only screen and (max-width: 431px) {
+    
+ .contact,.info,.compan_name {
+    text-align: center !important;
+ }
+ 
+.footer {
+    flex-direction: column;
+}
+.footer div {
+    width: 86% !important;
+}
+}

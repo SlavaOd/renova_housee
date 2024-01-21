@@ -10,7 +10,6 @@ body {
 }
 .weapper {
     width: 90%;
-    /* border: 2px solid red; */
     margin: auto;
     background-color: #fff;
     
@@ -44,6 +43,14 @@ nav a {
     padding: 10px 10px;
     margin: 0 7px;
     transition: background-color 0.3s ease;
+}
+
+.burger_butt {
+    font-size: 35px;
+}
+
+.logo_none {
+    display: none;
 }
 
 nav a:hover {
@@ -176,21 +183,10 @@ nav a:hover {
      .prices_items {
         flex-direction: column;
      }
-     .contact,.info,.compan_name {
-        text-align: center !important;
-     }
-     
-    .footer {
-        flex-direction: column;
-    }
-    .footer div {
-        width: 86% !important;
-    }
 }
 
 
 .background-image {
-    /* position: relative; */
     height: 500px;
     background-image: url(main_imgtop.jpg);
     background-size: cover;
@@ -216,8 +212,8 @@ nav a:hover {
 }
 
 .call-button {
-    background-color: #fff; /* Цвет фона кнопки */
-    color: #333; /* Цвет текста кнопки */
+    background-color: #fff; 
+    color: #333;
     padding: 10px 20px;
     font-size: 1em;
     text-decoration: none;
@@ -228,9 +224,20 @@ nav a:hover {
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+.call-button {
+    color: rgb(242, 165, 11) ;
+    width: 220px ;
+    height: 100px ;
+    font-size: 25px ;
+    font-weight: bolder;
+    background-color: aliceblue ;
+    margin-top: 100px;
+    opacity: 0.7;
+    border-radius: 20px;
+}
 
 .call-button:hover {
-    background-color: #ccc; /* Цвет фона кнопки при наведении */
+    background-color: #ccc; 
 }
 
 .work_us {
@@ -252,7 +259,6 @@ nav a:hover {
     justify-content: space-around;
 }
 .compleks div {
-    /* border: 2px solid red; */
     width: 40%;
 }
 
@@ -395,12 +401,12 @@ nav a:hover {
 
 .carousel {
     display: flex;
-    width: 100%; /* Изменили ширину на 100% для отображения пяти карточек */
+    width: 100%;
     transition: transform 0.5s ease;
 }
 
 .card {
-    flex: 0 0 20%; /* Изменили ширину на 20% для отображения пяти карточек */
+    flex: 0 0 20%; 
     box-sizing: border-box;
     text-align: center;
     font-size: 2em;
@@ -434,150 +440,3 @@ img {
 .next-button {
     right: 0;
 }
-
-
-
-
-.footer {
-    display: flex;
-    /* border: 2px solid red; */
-    border-bottom: 1px solid #fff;
-    border-left: 1px solid #fff;
-    border-right: 1px solid #fff;
-    justify-content: space-around;
-    margin-top: 5%;
-}
-
-.footer div {
-    display: inline-block;
-    width: 33%;
-    /* border: 2px solid red; */
-    color: #fff;
-    background-color: #00282a;
-    padding: 30px;
-
-}
-
-.footer_logo img {
-    display: block;
-    width: 50%;
-    margin: 0 auto;
-    margin-top: 30px;
-    cursor: pointer;
-    margin-bottom: 20%;
-}
-
-.contact a {
-    padding-left: 5px;
-    color: #fff;
-    text-decoration: none;
-}
-
-.info a {
-    display: block;
-    color: #fff;
-    text-decoration: none;
-    margin: 0 0 20px 0;
-}
-
-
-/* Стили для ширин экрана от 320px до 767px
-@media only screen and (max-width: 767px) {
-    .weapper {
-    width: 100%;
-    }
-
-    nav {
-    margin-right: 0;
-    }
-
-    .menu-icon {
-    margin-right: 0;
-    }
-
-    .main-section {
-    background-size: auto 100%;
-    }
-
-    .content h2 {
-    font-size: 30px;
-    }
-
-    .call-button {
-    margin-top: 10%;
-    }
-
-    .compleks div {
-    width: 100%;
-    margin-bottom: 20px;
-    }
-
-    .turnkey h2,
-    .design h2 {
-    font-size: 30px;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    }
-
-    .turnkey button,
-    .design button {
-    margin-top: 5%;
-    margin-bottom: 10%;
-    width: 80%;
-    }
-
-    .prices_items {
-    flex-direction: column;
-    }
-
-    .prices_items_first,
-    .prices_items_twice {
-    text-align: center;
-    }
-
-    .carousel-container {
-    max-width: 100%;
-    margin-top: 10%;
-    }
-
-    .footer {
-    flex-direction: column;
-    }
-
-    .footer div {
-    width: 100%;
-    text-align: center;
-    padding: 20px 0;
-    }
-
-    .footer_logo img {
-    width: 70%;
-    }
-
-    .contact {
-    margin-top: 20px;
-    }
-} */
-
-/* Стили для ширин экрана от 768px до 991px */
-/* @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .weapper {
-    width: 90%;
-    }
-
-    .main_video {
-    width: 70%;
-    }
-
-    .carousel-container {
-    max-width: 600px;
-    }
-
-    .footer div {
-    width: 30%;
-    }
-
-    .footer_logo img {
-    width: 100%;
-    }
-} */

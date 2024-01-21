@@ -1,6 +1,8 @@
 function toggleMenu() {
     var nav = document.querySelector('nav');
+    var logo = document.querySelector('.logo');
     nav.classList.toggle('show');
+    logo.classList.toggle('logo_none');
 }
 
 console.log('ok')
