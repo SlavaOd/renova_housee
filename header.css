@@ -9,7 +9,6 @@ nav {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    /* margin-right: 100px; */
 }
 
 .logo {
@@ -53,7 +52,7 @@ nav a:hover {
 
 .arrow {
     position: absolute;
-    right: 1px;
+    right: -5px;
     top: -1px;
 }
 .dropdown-content {
