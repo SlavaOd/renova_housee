@@ -18,6 +18,46 @@ body {
         box-sizing: border-box;
         margin: 1%;
         border: 1px solid #000; }
+      body .weapper .main_block .gallery_block .card1 {
+        background-image: url(./img/Screenshot_1.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center; }
+      body .weapper .main_block .gallery_block .card2 {
+        background-image: url(./img/Screenshot_2.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center; }
+      body .weapper .main_block .gallery_block .card3 {
+        background-image: url(./img/Screenshot_3.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center; }
+      body .weapper .main_block .gallery_block .card4 {
+        background-image: url(./img/Screenshot_4.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center; }
+      body .weapper .main_block .gallery_block .card5 {
+        background-image: url(./img/Screenshot_5.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center; }
+      body .weapper .main_block .gallery_block .card6 {
+        background-image: url(./img/Screenshot_6.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center; }
+      body .weapper .main_block .gallery_block .card7 {
+        background-image: url(./img/Screenshot_4.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center; }
+      body .weapper .main_block .gallery_block .card8 {
+        background-image: url(./img/Screenshot_3.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center; }
 
 @media only screen and (max-width: 431px) {
   .weapper {
