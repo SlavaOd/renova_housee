@@ -1,7 +1,6 @@
 header {
     background-color: #00282a;
-    padding: 15px 0;
-    text-align: center;
+    /* text-align: center; */
 }
 
 nav {
@@ -13,19 +12,53 @@ nav {
 
 .logo {
     text-decoration: none;
-    margin-right: auto;
+    margin-right: 25%;
+
+    
+}
+.logo_block {
+    display: inline-block;
+    display: flex;
+    justify-content: center; /* Горизонтальное центрирование */
+    align-items: center; /* Вертикальное центрирование */
+    justify-content: flex-start;
+}
+.block_tel {
+    display: inline-block;
+    height: 100%;
+    
+}
+.header_tel {
+    margin-right: 20px;
 }
 
 .logo img {
     height: 50px;
+    /* margin-right: 300px; */
 }
-
-nav a {
+.header_tel {
+    text-decoration: none;
     color: #fc6;
+    /* position: absolute; */
+    top: 45%;
+
+}
+.header_tel:last-of-type {
+    right:600px;
+}
+nav {
+    opacity: 0.5;
+    background-color: #000000;
+    border-top: #fc6 2px solid ;
+    border-bottom: 2px solid #fc6;
+}
+nav a {
+    color: #fc6 ;
     text-decoration: none;
     padding: 10px 10px;
     margin: 0 7px;
     transition: background-color 0.3s ease;
+    
 }
 
 a:hover {
