@@ -136,8 +136,15 @@ nav {
     width: 100%;
     position: absolute;
     background-color: #333;
-    top: 60px;
+    top: 45px;
     left: 0;
+    opacity: 1;
+}
+.logo_block {
+    display: none;
+}
+.header_tel {
+    font-size: 11px;
 }
 .show {
     background-color: #00282a;
