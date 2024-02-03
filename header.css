@@ -164,6 +164,15 @@ nav {
 .info_us_text p {
     padding-left: 5px;
 }
+
+.div_advantages_item p {
+    width: 66%;
+    margin-bottom: 40px;
+}
+.div_advantages_item div {
+    /* background-color: #fff; */
+    /* background-image: none; */
+}
 .menu-icon {
     display: block;
     text-align: right;
