@@ -32,6 +32,10 @@
     text-decoration: none;
 }
 
+.soc a:hover {
+    background-color:rgb(234, 164, 24) !important; 
+}
+
 .contact p {
     border: 2px solid rgb(234, 164, 24);
     border-radius: 20px;
@@ -61,6 +65,9 @@
     text-decoration: none;
     margin: 0 0 20px 0;
     text-align: center;
+
+        
+
 }
 
 .work_time p {
@@ -69,6 +76,8 @@
     padding: 10%;
     color: black;
 }
+
+
 .work_time {
     padding-top: 15% !important;
 }
