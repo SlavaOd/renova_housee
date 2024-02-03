@@ -170,8 +170,10 @@ nav {
     margin-bottom: 40px;
 }
 .div_advantages_item div {
-    /* background-color: #fff; */
     /* background-image: none; */
+}
+.advantages_flexbox {
+    width: 100%;
 }
 .menu-icon {
     display: block;
