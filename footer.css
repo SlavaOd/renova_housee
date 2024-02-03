@@ -19,8 +19,7 @@
 .footer_logo img {
     display: block;
     width: 50%;
-    margin: 0 auto;
-    margin-top: 30px;
+
     cursor: pointer;
     margin-bottom: 20%;
 }
@@ -29,6 +28,28 @@
     padding-left: 5px;
     color: #fff;
     text-decoration: none;
+}
+
+.contact p {
+    border: 2px solid rgb(234, 164, 24);
+    border-radius: 20px;
+    padding: 10px;
+}
+.contact p a img {
+    width: 30px;
+    height: 30px;
+}
+.contact p:last-of-type a {
+    flex-grow: 1;
+}
+.contact p:last-of-type a img {
+    margin-left: 12px;
+    display: inline-block;
+}
+
+.contact p:last-of-type {
+    background-color: rgb(234, 164, 24);
+    display: flex;
 }
 
 .info a {

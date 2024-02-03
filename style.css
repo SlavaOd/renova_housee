@@ -10,6 +10,7 @@ body {
     font-family: Arial, sans-serif;
     overflow-x: hidden;
     background-color: #00282a;
+    
 }
 .weapper {
     width: 90%;
@@ -150,8 +151,6 @@ body {
 }
 
 .info_us_img div {
-    border: 2px solid red;
-    background-color: aqua;
     width: 200px;
     height: 150px;
     margin: 0 auto;
@@ -205,11 +204,13 @@ body {
 .main_list_conteiner {
     background-color: #00282a;
     padding-bottom: 50px;
+    border: 2px solid #ffffffe9;
 }
 .main_list_conteiner h2 {
     border-bottom: #fc6 2px solid ;
     text-align: center;
 }
+
 .sub-list {
     display: none;
   }
@@ -217,10 +218,13 @@ body {
     list-style: none;
     padding-left: 0 !important;
     margin: 0;
+    text-align: left;
+    
   }
   
   .sub-list.active {
     display: block;
+    padding-left: 0;
   }
   .main-list {
     list-style: none;
@@ -229,25 +233,55 @@ body {
   }
   .main-list li {
     background-color: #fc6;
-    text-align: center;
-    
+    cursor: pointer;
     margin-bottom: 15px;
+    
   }
 .first_li {
     border-radius: 20px 20px 20px 20px ;
     text-decoration: none;
+    text-align: center;
 }
+
+
 .list_conteiner {
-width: 30%;
+width: 50%;
 margin: 0 auto;
 background-color: #00282a;
 
 }
 
+.happy_first_block {
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.conteiner_happy_client {
+    width: 90%;
+    margin: 0 auto;
+}
+.happy_first_block h2 {
+    display: inline-block;
+    width: 20%;
+
+}
+
+.happy_first_block p {
+    display: inline-block;
+    text-align: right;
+    width: 80%;
+}
 
 
+.conteiner_process {
+    display: flex;
+    text-align: center;
+}
 
-
+.conteiner_process div {
+    margin-right: 15px;
+    border-top: 2px solid #fc6;
+}
 
 
 
