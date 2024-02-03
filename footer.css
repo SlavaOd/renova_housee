@@ -90,3 +90,17 @@
     width: 86% !important;
 }
 }
+
+.footer_logo img {
+    margin: 0 auto;
+}
+.work_time h2 {
+    text-align: center;
+}
+.work_time{
+    padding-top: 0 !important;
+}
+
+.info {
+    padding-top: 3% !important;
+}
