@@ -28,12 +28,15 @@
     padding-left: 5px;
     color: #fff;
     text-decoration: none;
+    color: rgb(234, 164, 24);
+    text-decoration: none;
 }
 
 .contact p {
     border: 2px solid rgb(234, 164, 24);
     border-radius: 20px;
     padding: 10px;
+    color: rgb(234, 164, 24);
 }
 .contact p a img {
     width: 30px;
@@ -54,11 +57,25 @@
 
 .info a {
     display: block;
-    color: #fff;
+    color: rgb(234, 164, 24);
     text-decoration: none;
     margin: 0 0 20px 0;
+    text-align: center;
 }
 
+.work_time p {
+    background-color:rgb(234, 164, 24) ;
+    border-radius: 20px;
+    padding: 10%;
+    color: black;
+}
+.work_time {
+    padding-top: 15% !important;
+}
+.info {
+    padding-top: 18% !important;
+    
+}
 
 @media only screen and (max-width: 431px) {
     

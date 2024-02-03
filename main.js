@@ -22,14 +22,14 @@ $(document).ready(function(){
 
 
 document.addEventListener('DOMContentLoaded', function() {
-    const mainListItems = document.querySelectorAll('.main-list > li');
-  
-    mainListItems.forEach(item => {
-      item.addEventListener('click', function() {
-        const subList = this.querySelector('.sub-list');
-        if (subList) {
-          subList.classList.toggle('active');
-        }
-      });
+  const mainListItems = document.querySelectorAll('.main-list > li');
+
+  mainListItems.forEach(item => {
+    item.addEventListener('click', function() {
+      const subList = this.querySelector('.sub-list');
+      if (subList) {
+        subList.classList.toggle('active');
+      }
     });
   });
+});

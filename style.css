@@ -189,7 +189,9 @@ body {
     padding-left: 2px;
     margin-top: 0;
 }
-
+.advantages {
+    padding-bottom: 5%;
+}
 .advantages_flexbox {
     width: 80%;
     margin: 0 auto;
@@ -212,24 +214,31 @@ body {
 }
 
 .sub-list {
-    display: none;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1.5s ease; /* Анимация высоты */
+    padding: 0;
   }
   .sub-list li {
     list-style: none;
     padding-left: 0 !important;
     margin: 0;
     text-align: left;
+    margin-left: 20px; /* Отступ для подсписка */
     
   }
   
   .sub-list.active {
     display: block;
     padding-left: 0;
+    max-height: 1000px; /* Максимальная высота для анимации */
   }
   .main-list {
     list-style: none;
     padding: 0;
     margin: 0;
+    
+    
   }
   .main-list li {
     background-color: #fc6;
@@ -241,6 +250,9 @@ body {
     border-radius: 20px 20px 20px 20px ;
     text-decoration: none;
     text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    
 }
 
 
@@ -296,9 +308,6 @@ background-color: #00282a;
 
 .about_us_info p {
     padding: 0 2% 0 2%;
-}
-.advantages {
-    height: 1000px;
 }
 .advantages h2 {
     background-color: #00282a;
