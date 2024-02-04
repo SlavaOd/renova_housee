@@ -14,9 +14,6 @@ th {
     text-align: center;
 }
 
-td {
-    padding-left: 10%;
-}
 
 th {
     background-color: #f2f2f2;
@@ -24,5 +21,26 @@ th {
 .main_list_conteiner {
     .sub-list {
         text-align: center;
+    }
+}
+
+.info_us_img {
+    background-image: url(../asdljasdf.jpg);
+    height: 400px;
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 35%;
+}
+.info_us_text {
+    width: 55%;
+}
+
+
+@media only screen and (max-width: 431px) { 
+    .info_us_img {
+        display: none;
+    }
+    .info_us_text {
+        width: 100% !important;
     }
 }
