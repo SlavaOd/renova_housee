@@ -26,11 +26,22 @@ th {
 .info_us_text {
   width: 55%; }
 
+.first_li:last-of-type {
+  border-radius: 0;
+  width: 90%;
+  margin-top: 2%;
+  text-transform: uppercase;
+  padding: 5px; }
+
 @media only screen and (max-width: 431px) {
   .info_us_img {
     display: none; }
 
   .info_us_text {
-    width: 100% !important; } }
+    width: 100% !important; }
+
+  .first_li:last-of-type {
+    margin-top: 10%;
+    width: 99%; } }
 
 /*# sourceMappingURL=price_page.css.map */
