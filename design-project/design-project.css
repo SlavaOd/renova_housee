@@ -133,6 +133,10 @@ th, td {
       height: 220px;
       margin-bottom: 20px; }
   .block_finish_design h2:nth-child(2) {
-    margin-left: 14%; } }
+    margin-left: 14%; }
+
+  .slider-container {
+    width: 100%;
+    margin: 0; } }
 
 /*# sourceMappingURL=design-project.css.map */
