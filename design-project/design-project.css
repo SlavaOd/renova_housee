@@ -24,12 +24,19 @@
 .slide {
   height: 300px;
   width: 80%;
+  transition: opacity 0.5s ease-in-out;
+  opacity: 1;
+  /* Установите изначальную прозрачность на 1 */
   flex: 0 0 50%;
   /* Каждый слайд занимает 50% ширины слайдера */ }
   .slide img {
-    width: 100%;
+    width: 98%;
     height: 100%;
-    margin: 0 auto; }
+    margin: 0 4px; }
+
+.slide.hidden {
+  opacity: 0;
+  /* Скрываем невидимые слайды */ }
 
 img {
   max-width: 100%;
@@ -137,6 +144,6 @@ th, td {
 
   .slider-container {
     width: 100%;
-    margin: 0; } }
+    margin: 0 !important; } }
 
 /*# sourceMappingURL=design-project.css.map */
