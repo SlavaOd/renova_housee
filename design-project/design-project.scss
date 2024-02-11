@@ -1,0 +1,133 @@
+
+.project_about_block {
+    width: 80%;
+    margin: 0 auto;
+    h3 {
+        color: black;
+        text-align: left;
+    }
+    span {
+        font-weight: bold;
+    }
+}
+
+.slider-container {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease; /* Добавляем плавную анимацию */
+    overflow: hidden; /* Скрытие содержимого, которое не помещается в область слайдера */
+}
+
+.slide {
+    height: 300px;
+    width: 80%;
+    flex: 0 0 50%; /* Каждый слайд занимает 50% ширины слайдера */
+    img {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+    
+}
+
+img {
+    max-width: 100%; /* Изображения масштабируются по ширине слайда */
+    height: auto;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5); /* Прозрачный фон для кнопок */
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 2; /* Кнопки поверх слайдов */
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid black;
+    box-shadow: 0 0 24px rgba(255, 255, 255, 0.919); /* светлая тень */
+  }
+  .text-strike {
+    text-decoration: line-through;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+  }
+  .red_table {
+    color: red;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+  th, td {
+    padding: 8px;
+    border: 1px solid black;
+    background-color: aliceblue;
+  }
+  
+
+  .list_conteiner {
+    span {
+        color:#f2a50b;
+        font-size: 25px;
+        text-align: center;
+        display: block;
+    }
+    td {
+        padding: 0;
+    }
+    th {
+        background-color: rgb(162, 159, 159);
+
+    }
+    .grey_color{
+        background-color: rgb(162, 159, 159);
+        padding: 10px;
+        font-weight: bold;
+      }
+  }
+
+.block_finish_design {
+    width: 80%;
+    margin: 0 auto;
+    h2 {
+        color: black;
+    }
+    h2:nth-child(2) {
+        margin-left: 15%;
+    }
+    .finish_flex {
+        display: flex;
+        justify-content: center;
+        div {
+            width: 45%;
+            height: 290px;
+            margin-left: 10px;
+        }
+        .finish_img {
+            background-image: url(./img2.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+    }
+}
