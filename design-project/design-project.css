@@ -12,7 +12,7 @@
   width: 80%;
   margin: 0 auto;
   position: relative;
-  padding-bottom: 100px; }
+  margin-bottom: 20px; }
 
 .slider {
   display: flex;
@@ -36,7 +36,7 @@ img {
   /* Изображения масштабируются по ширине слайда */
   height: auto; }
 
-button {
+.butt {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -109,5 +109,30 @@ th, td {
       background-image: url(./img2.jpg);
       background-size: contain;
       background-repeat: no-repeat; }
+
+@media only screen and (max-width: 431px) {
+  .list_conteiner {
+    margin: 0 auto;
+    width: 90%; }
+
+  table {
+    font-size: 10px;
+    display: block; }
+
+  .block_finish_design .finish_flex {
+    display: block; }
+    .block_finish_design .finish_flex div {
+      display: block;
+      width: 100%;
+      margin: 0; }
+    .block_finish_design .finish_flex p {
+      margin: 0; }
+    .block_finish_design .finish_flex .finish_text {
+      height: 150px; }
+    .block_finish_design .finish_flex .finish_img {
+      height: 220px;
+      margin-bottom: 20px; }
+  .block_finish_design h2:nth-child(2) {
+    margin-left: 14%; } }
 
 /*# sourceMappingURL=design-project.css.map */
