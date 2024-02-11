@@ -4,95 +4,53 @@ body {
     font-family: Arial, sans-serif;
     overflow-x: hidden;
     background-color: #00282a;
-    
     .weapper {
         width: 90%;
         margin: auto;
         background-color: #fff;
         position: relative;
+        .main-section {
+            .background-image {
+                background-image: url(./img/main_img.jpg);
+            }
+        }
         .main_block {
             text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #fc6 ;
+            h2 {
+                color: black;
+            }
             .gallery_block {
                 display: flex;
                 flex-wrap: wrap;
+                justify-content: space-around;
                 .gallery_card {
-                    width: 23%;
-                    height: 350px;
-                    box-sizing: border-box;
-                    margin: 1%;
-                    // border: 1px solid #000;
-                    cursor: pointer;
-                    background-size: contain;
+                    width: 33%;
+                    margin-bottom: 20px;
                     
-                }
-                .card1 {
-                    background-image: url(./img/Screenshot_1.jpg);
-                    background-size: cover;
-                    background-repeat: no-repeat;
-                    background-position: center;
-                }
-                .card2 {
-                    background-image: url(./img/Screenshot_2.jpg);
-                    background-size: cover;
-                    background-repeat: no-repeat;
-                    background-position: center;
-                }
-                .card3 {
-                    background-image: url(./img/Screenshot_3.jpg);
-                    background-size: cover;
-                    background-repeat: no-repeat;
-                    background-position: center;
-                }
-                .card4 {
-                    background-image: url(./img/Screenshot_4.jpg);
-                    background-size: cover;
-                    background-repeat: no-repeat;
-                    background-position: center;
-                }
-                .card5 {
-                    background-image: url(./img/Screenshot_5.jpg);
-                    background-size: cover;
-                    background-repeat: no-repeat;
-                    background-position: center;
-                }
-                .card6 {
-                    background-image: url(./img/Screenshot_6.jpg);
-                    background-size: cover;
-                    background-repeat: no-repeat;
-                    background-position: center;
-                }
-                .card7 {
-                    background-image: url(./img/Screenshot_4.jpg);
-                    background-size: cover;
-                    background-repeat: no-repeat;
-                    background-position: center;
-                }
-                .card8 {
-                    background-image: url(./img/Screenshot_1.jpg);
-                    background-size: cover;
-                    background-repeat: no-repeat;
-                    background-position: center;
-                }
-            }
-        }
-        .popup {
-            color: rgb(242, 165, 11);
-            .popup-content {
-                .popup-image {
-                    
-                }
-                .prev {
-                    width: 40px;
-                    height: 40px;
-                    background-color: rgb(242, 165, 11);
-                }
-                .next {
-                    width: 40px;
-                    height: 40px;
-                    background-color: rgb(242, 165, 11);
                 }
                 
-
+            }
+            .watching_all {
+                background-color: #00282a;
+                display: inline-block;
+                width: 200px;
+                height: 50px;
+                color: #fff;
+                border-radius: 10px;
+                text-decoration: none;
+                line-height: 50px;
+            }
+        }
+        .social_web_conteiner {
+            display: flex;
+            justify-content: space-around;
+            .soc_block {
+                border: 2px solid red;
+                width: 20%;
+                height: 100px;
+                margin-top: 20px;
             }
         }
         

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../header.css">
     <link rel="stylesheet" href="../footer.css">
+    <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="./our_works.css">
     
     <title>Наши работы</title>
@@ -12,78 +13,100 @@
 <body>
     <div class="weapper">
         <header>
-        <nav>
-            <a href="#" class="logo">
-                <img src=".././img/logo.png" alt="Логотип">
-            </a>
-            <a href="../index.html">Главная</a>
-            <div class="dropdown">
-                <a href="#">Услуги <span class="arrow">👇</span></a>
-                <div class="dropdown-content">
-                    <a href="#">Сентехнические работы</a>
-                    <a href="#">Электромонтажные работы</a>
-                    <a href="#">Натяжные потолки</a>
-                    <a href="#">Шумоизоляция квартир</a>
-                    <a href="#">Гипсокартонные работы</a>
-                    <a href="#">Демонтажные работы</a>
-                    <a href="#">Мебель под заказ</a>
+            <div class="logo_block">
+                <a href="#" class="logo">
+                    <img src="../img/logo.png" alt="Логотип">
+                </a>
+                <a class="header_tel" href="tel:+380936853290">+38 (093) 685-32-90</a>
+                <a class="header_tel" href="tel:+380687708700">+38 (068) 770-87-00</a>
+                
+            </div>
+            
+            <div class="menu-icon" onclick="toggleMenu()"><a class="header_tel" href="tel:+380936853290">+38 (093) 685-32-90</a>
+                <a class="header_tel" href="tel:+380687708700">+38 (068) 770-87-00</a><span class="burger_butt">☰</span></div>
+        </header>    
+        <section class="main-section">  
+            <div class="background-image">
+                <nav>
+                    <a href="./index.html">Главная</a>
+                    <!-- <div class="dropdown">
+                        <a href="#">Услуги <span class="arrow">👇</span></a>
+                        <div class="dropdown-content">
+                            <a href="#">Сентехнические работы</a>
+                            <a href="#">Электромонтажные работы</a>
+                            <a href="#">Натяжные потолки</a>
+                            <a href="#">Шумоизоляция квартир</a>
+                            <a href="#">Гипсокартонные работы</a>
+                            <a href="#">Демонтажные работы</a>
+                            <a href="#">Мебель под заказ</a>
+                        </div>
+                    </div> -->
+                    <a href="./design-project/design-project.html">Дизайн-проект</a>
+                    <a href="./price_page/price_page.html">Наши цены</a>
+                    <a href="./Our_works/our_works.html">Наши работы</a>
+                    <a href="./contact/contact.html">Контакты</a>
+                </nav>
+                <!-- <img src="main_imgtop.jpg" alt="Фоновое изображение"> -->
+                <div class="content">
+                    <h2>Ремонт квартир и домов</h2>
+                    <a href="tel:+380987700466"><button class="call-button">Позвонить нам</button></a>
                 </div>
             </div>
-            <a href="#">Дизайн интерьера</a>
-            <a href="#">Наши цены</a>
-            <a href="#">Наши работы</a>
-            <a href="#">Ваши вопросы</a>
-            <a href="#">Отзывы</a>
-            <a href="../contact/contact.html"> <span class="contact">Контакты</span></a>
             
-        </nav>
-        <div class="menu-icon" onclick="toggleMenu()"><span class="burger_butt">☰</span></div>
-        </header>  
+        </section>
         <div class="main_block">
-        <p>В данном разделе Вы можете ознакомиться с примерами наших работ по ремонту квартир, 3D визуализации и дизайну-интерьера.     Если у Вас появились вопросы, хотите узнать стоимость услуг или приехать на экскурсию и посмотреть уровень наших работ в живую, звоните нам по телефону или оставьте заявку на сайте.</p>
-        <h2>Фото некоторых наших работ</h2>
-        <div class="gallery_block">
-            <div class="gallery_card card1"><p class="">Михайловский городок</p></div>
-            <div class="gallery_card card2"><p class="">Михайловский городок</p></div>
-            <div class="gallery_card card3"><p class="">Михайловский городок</p></div>
-            <div class="gallery_card card4"><p class="">Михайловский городок</p></div>
-            <div class="gallery_card card5"><p class="">Михайловский городок</p></div>
-            <div class="gallery_card card6"><p class="">Михайловский городок</p></div>
-            <div class="gallery_card card7"><p class="">Михайловский городок</p></div>
-            <div class="gallery_card card8"><p class="">Михайловский городок</p></div>
-        </div>
-        </div>
-        <div class="popup">
-            <span class="close">&times;</span>
-            <div class="popup-content">
-                <img class="popup-image" src="" alt="Popup Image">
-                <button class="prev">❮</button>
-                <button class="next">❯</button>
+            <h2>ВИДЕООБЗОР РЕМОНТНЫХ РАБОТ</h2>
+            <p>Самые новые ролики с нашего YouTube канала.</p>
+            <p>Обзор готовых ремонтов,</p>
+            <p>видео процессов ремонтных работ и много полезной и интересной</p>
+            <p>информации, касательно ремонта, выполненной нами.</p>
+        
+            <div class="gallery_block">
+                <iframe class="gallery_card" width="560" height="315" src="https://www.youtube.com/embed/vCclnw6bVaM?si=qBEMfq8XNqs8gvzf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe class="gallery_card" width="560" height="315" src="https://www.youtube.com/embed/ypBh4jJfDtA?si=aR77_OfpzDr9Dby7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe class="gallery_card" width="560" height="315" src="https://www.youtube.com/embed/XlXOsyDDHLA?si=y7yBcnm6cf2UTCw6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe class="gallery_card" width="560" height="315" src="https://www.youtube.com/embed/XlXOsyDDHLA?si=y7yBcnm6cf2UTCw6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe class="gallery_card" width="560" height="315" src="https://www.youtube.com/embed/ypBh4jJfDtA?si=aR77_OfpzDr9Dby7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe class="gallery_card" width="560" height="315" src="https://www.youtube.com/embed/XlXOsyDDHLA?si=y7yBcnm6cf2UTCw6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
+            <a href="https://www.youtube.com/channel/UCAGp2ZBiFSi8rXgbcfUNOsw/about" class="watching_all">СМОТРЕТЬ ЕЩЕ</a>
         </div>
-    <footer class="footer">
-        <div class="compan_name">
-            <a href=".././img/logo.png" class="footer_logo"><img src=".././img/logo.png" alt="" srcset=""></a>
-            <p>Компания «Строй Мастер» предоставляет полный комплекс услуг по ремонту квартир под ключ, проектированию и дизайну интерьера, а также обустройству Вашего дома в Одессе, Черноморске и области!</p>
+        <div class="social_web_conteiner">
+            <div class="soc_block"></div>
+            <div class="soc_block"></div>
+            <div class="soc_block"></div>
         </div>
-        <div class="contact">
-            <h2>Контакты</h2>
-            <p>г. Одесса, пр. Небесной сотни, 3А</p>
-            <p>☎<a href="tel:+380987700466">+38 (097) 705-30-30</a></p>
-            <p>☎<a href="tel:+380987700466">+38 (097) 705-30-30</a></p>
-            <p>☎<a href="tel:+380987700466">+38 (097) 705-30-30</a></p>
-            <!-- <p>📧<a href="mailto:sbodryan1992@gmail.com"></a>stroy.master.odessa@gmail.com  </p> -->
-        </div>
-        <div class="info">
-            <h2>Информация</h2>
-            <a href="">Ремонт квартир</a>
-            <a href="">Дизайн интерьера</a>
-            <a href="">Наши работы</a>
-            <a href="">Отзывы</a>
-            <a href="">Цены (прайс-лист)</a>
-            <a href="">Новости</a>
-        </div>
-    </footer>
+        <footer class="footer">
+             
+            <div class="contact">
+               <a href="../img/logo.png" class="footer_logo"><img src="../img/logo.png" alt="" srcset=""></a>
+                <h2>Контакты:</h2>
+                <p>Украина, Одесская обл., г.Одесса</p>
+                <p >☎<a href="tel:+380977708700">+38 (097) 770-87-00</a></p>
+                <p>☎<a href="tel:+380936853290">+38 (093) 685-32-90</a></p>
+                <p>@<a href="mailto:renova.house.od@gmail.com">renova.house.od@gmail.com</a></p>
+                <p class="soc">
+                   <a href="https://www.tiktok.com/@renova_house_?_t=8jZrEq2Hm4r"><img src="../tik-tok_3670132.png" alt="" srcset=""></a>
+                   <a href="https://www.youtube.com/channel/UCAGp2ZBiFSi8rXgbcfUNOsw/about"><img src="../youtube_3670147.png" alt="" srcset=""></a>
+                   <a href="https://www.instagram.com/renova_house_?igsh=ZzIzNHYzb2UyZmN5"><img src="../instagram_3955024.png" alt="" srcset=""></a>
+                   <a href="https://t.me/RENOVA_HOUSE
+                   "><img src="../telegram_2111646.png" alt="" srcset=""></a>
+                </p>
+            </div>
+            <div class="work_time">
+               <h2>График работы:</h2>
+               <p>пн.-пт.: <br>
+                   9:00 - 18:00 <br>
+                   сб.: <br>9:00 - 15:00</p>
+           </div>
+            <div class="info">
+                <a href="../index.html">Главная</a>
+                <a href="../design-project/design-project.html">Дизайн - проект</a>
+                <a href="../price_page/price_page.html">Наши цены</a>
+                <a href="#">Наши работы</a>
+                <a href="./contact/contact.html">Контакты</a>
+            </div>
+        </footer>
 
 
 
