@@ -37,10 +37,36 @@ body {
       display: flex;
       justify-content: space-around; }
       body .weapper .social_web_conteiner .soc_block {
-        border: 2px solid red;
-        width: 20%;
-        height: 100px;
-        margin-top: 20px; }
+        width: 10%;
+        height: 120px;
+        margin-top: 50px; }
+        body .weapper .social_web_conteiner .soc_block p {
+          position: relative;
+          top: -60px;
+          text-align: center;
+          font-weight: bolder;
+          background-image: none; }
+          body .weapper .social_web_conteiner .soc_block p span {
+            color: red;
+            background-image: none; }
+      body .weapper .social_web_conteiner :nth-child(1) {
+        background-image: url(../youtube_3670147.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        cursor: pointer; }
+      body .weapper .social_web_conteiner :nth-child(2) {
+        background-image: url(../instagram_3955024.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        cursor: pointer; }
+      body .weapper .social_web_conteiner :nth-child(3) {
+        background-image: url(../tik-tok_3670132.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        cursor: pointer; }
 
 @media only screen and (max-width: 431px) {
   .weapper {
@@ -57,7 +83,24 @@ body {
       .weapper .popup .popup-content .popup-image {
         width: 100%;
         height: 100%;
-        object-fit: cover; } }
+        object-fit: cover; }
+
+  .social_web_conteiner {
+    display: flex;
+    justify-content: space-around; }
+    .social_web_conteiner .soc_block {
+      width: 20% !important;
+      height: 120px;
+      margin-top: 50px; }
+      .social_web_conteiner .soc_block p {
+        position: relative;
+        top: -60px;
+        text-align: center;
+        font-weight: bolder;
+        background-image: none; }
+        .social_web_conteiner .soc_block p span {
+          color: red;
+          background-image: none; } }
 .popup {
   display: none;
   position: fixed;

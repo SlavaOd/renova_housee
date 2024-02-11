@@ -47,10 +47,42 @@ body {
             display: flex;
             justify-content: space-around;
             .soc_block {
-                border: 2px solid red;
-                width: 20%;
-                height: 100px;
-                margin-top: 20px;
+                width: 10%;
+                height: 120px;
+                margin-top: 50px;
+                p {
+                    position: relative;
+                    top: -60px;
+                    text-align: center;
+                    font-weight: bolder;
+                    background-image: none;
+                    span {
+                        color: red;
+                        background-image: none;
+                    }
+                }
+            }
+
+            :nth-child(1) {
+                background-image: url(../youtube_3670147.png);
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: center;
+                cursor: pointer;
+            }
+            :nth-child(2) {
+                background-image: url(../instagram_3955024.png);
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: center;
+                cursor: pointer;
+            }
+            :nth-child(3) {
+                background-image: url(../tik-tok_3670132.png);
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: center;
+                cursor: pointer;
             }
             
         }
@@ -89,6 +121,27 @@ body {
                 }
                 .next {
                     
+                }
+            }
+        }
+        
+    }
+    .social_web_conteiner {
+        display: flex;
+        justify-content: space-around;
+        .soc_block {
+            width: 20% !important;
+            height: 120px;
+            margin-top: 50px;
+            p {
+                position: relative;
+                top: -60px;
+                text-align: center;
+                font-weight: bolder;
+                background-image: none;
+                span {
+                    color: red;
+                    background-image: none;
                 }
             }
         }
