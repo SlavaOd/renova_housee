@@ -40,6 +40,9 @@ body {
         width: 10%;
         height: 120px;
         margin-top: 50px; }
+        body .weapper .social_web_conteiner .soc_block a {
+          text-decoration: none;
+          color: black; }
         body .weapper .social_web_conteiner .soc_block p {
           position: relative;
           top: -60px;
