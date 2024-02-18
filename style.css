@@ -72,6 +72,12 @@ body {
      .prices_items {
         flex-direction: column;
      }
+     .div_advantages_item {
+        width: 90% !important;
+        margin: 0 auto;
+        text-align: center;
+        
+     }
 }
 
 
@@ -153,7 +159,7 @@ body {
 
 .info_us_img div {
     width: 280px;
-    height: 150px;
+    height: 180px;
     margin: 0 auto;
     margin-bottom: 20px;
     background-size: cover;
@@ -173,7 +179,7 @@ body {
     display: inline-block;
     width: 60%;
     vertical-align: top;
-    line-height: 24px;
+    line-height: 30px;
     font-size: 20px;
 }
 .info_us_text p:last-of-type {
@@ -189,7 +195,20 @@ body {
     color: black;
     font-weight: bold;
 }
+.div_advantages_item {
+    width: 32%;
+    position: relative;
+}
+.background_num {
+    position: absolute;
+    font-size: 85px;
+    top: -60px;
+    color: grey;
+    font-weight: bolder;
+    opacity: 0.4;
+    font-family: "DM Serif Text", serif;
 
+}
 .div_advantages_item div {
     width: 30%;
     height: 100px;  
@@ -200,24 +219,37 @@ body {
     -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 25% 100%);
     clip-path: polygon(0% 0%, 75% 0%, 100% 100%, 25% 100%);
 }
+.div_advantages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
 .div_advantages_item p {
     display: inline-block;
-    width: 68%;
     vertical-align: top;
-    border-left: #fc6 4px solid ;
     padding-left: 2px;
     margin-top: 0;
+    padding-top: 50px;
+}
+.div_advantages_item p:last-of-type {
+    font-size: 15px;
+}
+.div_advantages_item p:first-of-type {
+    /* font-size: 20px; */
 }
 .advantages {
     padding-bottom: 5%;
 }
 .advantages_flexbox {
-    width: 80%;
-    margin: 0 auto;
-    margin-top: 30px;
+    
 }
 .div_advantages_item span {
-    color: #fc6;
+    font-weight: bolder;
+    font-size: 25px;
+    display: block;
 }
 
 
@@ -230,6 +262,11 @@ body {
 .main_list_conteiner h2 {
     border-bottom: #fc6 2px solid ;
     text-align: center;
+    color: #f2f2ff  ;
+}
+
+.main_list_conteiner h3 {
+    color: #f2f2ff  ;
 }
 
 .sub-list {
@@ -243,6 +280,8 @@ body {
     padding-left: 0 !important;
     margin: 0;
     text-align: left;
+    font-size: 14px;
+    text-transform: lowercase;
     margin-left: 20px; /* Отступ для подсписка */
     
   }
@@ -260,7 +299,7 @@ body {
     
   }
   .main-list li {
-    background-color: #fc6;
+    background-color: rgb(242, 165, 11)  ;
     cursor: pointer;
     margin-bottom: 15px;
     
@@ -269,9 +308,20 @@ body {
     border-radius: 20px 20px 20px 20px ;
     text-decoration: none;
     text-align: center;
-    width: 80%;
+    width: 40%;
     margin: 0 auto;
+    position: relative;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
     
+}
+.first_li span {
+    color: rgb(166, 111, 0)  ;
+    font-size: 20px;
+    position: absolute;
+    left: 15px;
+    top: -2px;
 }
 
 
@@ -288,12 +338,18 @@ background-color: #00282a;
     margin-top: 50px;
 }
 .conteiner_happy_client {
-    width: 90%;
+    width: 85%;
     margin: 0 auto;
+    font-weight: bold;
+    color: rgb(201, 134, 2)  ;
+    font-size: 20px;
+    font-family: "Playfair Display", serif;
 }
 .happy_first_block h2 {
     display: inline-block;
     width: 20%;
+    font-size: 36px;
+    color: rgb(201, 134, 2) ;
 
 }
 
@@ -301,6 +357,7 @@ background-color: #00282a;
     display: inline-block;
     text-align: right;
     width: 80%;
+    font-weight: bold;
 }
 
 
@@ -311,7 +368,23 @@ background-color: #00282a;
 
 .conteiner_process div {
     margin-right: 15px;
-    border-top: 2px solid #fc6;
+    position: relative;
+    /* border-top: 2px solid #fc6; */
+}
+.conteiner_process div::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 10%; /* Начало полоски смещено на 10% вправо */
+    width: 90%; /* Ширина полоски составляет 80% от родительского элемента */
+    border-top: 2px solid rgb(242, 165, 11); /* Пример полоски */
+}
+    .proc_block span {
+        font-size: 25px;
+    position: absolute;
+    top: -25px; /* Смещение знака над полоской */
+  left: 0px; /* Смещение знака влево от левого края элемента */
+
 }
 
 
@@ -319,21 +392,32 @@ background-color: #00282a;
 
 
 
-
-
+.about_us_info {
+    width: 86%;
+    margin: 0 auto;
+    line-height: 30px;
+}
 .about_us_info h2 {
     text-align: center;
+    color: #000;
+}
+.about_us_info h2:last-of-type {
+    text-align: center;
+    color: rgb(242, 165, 11);
 }
 .about_us_info h3 {
     text-align: start;
+    color: rgb(242, 165, 11);
 }
 
 .about_us_info p {
-    padding: 0 2% 0 2%;
+    /* padding: 0 2% 0 2%; */
+    font-size: 20px;
+
 }
 .advantages h2 {
     background-color: #00282a;
-    color: #fc6;
+    color: #f2f2ff  ;
     margin: 0;
     text-align: center;
     padding: 5px 0;
@@ -477,58 +561,4 @@ background-color: #00282a;
 
 .our_team h3{
     text-align: center;
-}
-
-
-
-
-
-.carousel-container {
-    position: relative;
-    max-width: 800px;
-    margin: auto;
-    overflow: hidden;
-    margin-top: 5%;
-}
-
-.carousel {
-    display: flex;
-    width: 100%;
-    transition: transform 0.5s ease;
-}
-
-.card {
-    flex: 0 0 20%; 
-    box-sizing: border-box;
-    text-align: center;
-    font-size: 2em;
-    border: 1px solid #ddd;
-    padding: 20px;
-}
-
-img {
-    /* width: 100%; */
-    height: auto;
-}
-
-.prev-button,
-.next-button {
-    position: absolute;
-    top: 50%;
-    width: 30px;
-    height: 30px;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    font-size: 36px;
-    transform: translateY(-50%);
-    color: rgb(214, 146, 9);
-}
-
-.prev-button {
-    left: 0;
-}
-
-.next-button {
-    right: 0;
 }
