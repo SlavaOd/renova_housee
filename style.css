@@ -2,7 +2,7 @@ a {
     cursor: pointer;
 }
 h2 {
-    color: #fc6;
+    color: rgb(242, 165, 11)  ;
 }
 body {
     margin: 0;
@@ -15,7 +15,7 @@ body {
 .weapper {
     width: 90%;
     margin: auto;
-    background-color: #ffffffe9;
+    background-color: #f2f2ff ;
     
 }
 
@@ -141,6 +141,7 @@ body {
     margin: 0;
     padding-top: 20px;
     padding-bottom: 20px;
+    color: #f2f2ff  ;
 }
 
 
@@ -151,25 +152,40 @@ body {
 }
 
 .info_us_img div {
-    width: 200px;
+    width: 280px;
     height: 150px;
     margin: 0 auto;
     margin-bottom: 20px;
-    background-image: url(./main_img.jpg);
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.info_us_img1 {
+    background-image: url(./img/info_us_img1.jpg);
+}
+.info_us_img2 {
+    background-image: url(./img/info_us_img2.jpg);
+}
+.info_us_img3 {
+    background-image: url(./img/info_us_img3.jpg);
 }
 .info_us_text {
     display: inline-block;
     width: 60%;
     vertical-align: top;
+    line-height: 30px;
+    /* font-size: 20px; */
 }
 
 .info_us_text h2,h3 {
     text-align: center;
     margin-top: 0;
-    color: #fc6;
+    /* color: #fc6; */
 }
-
+.info_us_text span {
+    color: black;
+    font-weight: bold;
+}
 
 .div_advantages_item div {
     width: 30%;
@@ -304,6 +320,9 @@ background-color: #00282a;
 
 .about_us_info h2 {
     text-align: center;
+}
+.about_us_info h3 {
+    text-align: start;
 }
 
 .about_us_info p {
