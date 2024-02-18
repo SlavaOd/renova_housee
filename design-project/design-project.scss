@@ -1,13 +1,33 @@
 
+
+.weapper {
+    .main-section {
+        .background-image {
+            background-image: url(./img/photo_2024-02-15_15-07-22.jpg);
+        }
+    }
+}
 .project_about_block {
     width: 80%;
     margin: 0 auto;
+    font-size: 24px;
+    line-height: 30px;
     h3 {
         color: black;
         text-align: left;
+        text-align: center;
     }
     span {
         font-weight: bold;
+    }
+    h2 {
+        color: black;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 50px;
+    }
+    p:last-of-type{
+        text-align: center;
     }
 }
 
@@ -28,8 +48,10 @@
 }
 
 .slide {
-    height: 300px;
+    height: 400px;
+    cursor: pointer;
     width: 80%;
+    margin: 0 auto;
     transition: opacity 0.5s ease-in-out;
     opacity: 1; /* Установите изначальную прозрачность на 1 */
     flex: 0 0 50%; /* Каждый слайд занимает 50% ширины слайдера */
@@ -54,7 +76,7 @@ img {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background: rgba(0, 0, 0, 0.5); /* Прозрачный фон для кнопок */
+    background: rgb(242, 165, 11); /* Прозрачный фон для кнопок */
     color: white;
     border: none;
     cursor: pointer;
@@ -63,11 +85,11 @@ img {
 }
 
 .prev {
-    left: 0;
+    left: 20%;
 }
 
 .next {
-    right: 0;
+    right: 20%;
 }
 
 
@@ -96,6 +118,10 @@ table {
   
 
   .list_conteiner {
+    width: 70%;
+    h2 {
+        font-size: 36px;
+    }
     span {
         color:#f2a50b;
         font-size: 25px;
@@ -113,6 +139,9 @@ table {
         background-color: rgb(162, 159, 159);
         padding: 10px;
         font-weight: bold;
+      }
+      .grey_color:nth-child(2),.grey_color:nth-child(3) {
+        text-align: center;
       }
   }
 
@@ -180,4 +209,50 @@ table {
         width: 100%;
         margin: 0 !important;
     }
+    .slide {
+        flex: 0 0 94%;
+    }
+    .next {
+        right: 0;
+    }
+    .prev {
+        left: 0;
+    }
+}
+
+
+
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 9999;
+    display: none;
+}
+
+.popup.show {
+    display: block;
+}
+
+.popup .close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 10000;
+}
+
+.popup .popup-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90%;
+    max-height: 90%;
 }

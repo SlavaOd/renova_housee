@@ -4,6 +4,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const nextButton = document.querySelector('.next');
     let currentIndex = 0;
 
+    // Показать текущий слайд
+    updateSlider();
+
     // При клике на кнопку "Назад" показываем предыдущий слайд
     prevButton.addEventListener('click', showPrevSlide);
 
@@ -11,30 +14,36 @@ document.addEventListener('DOMContentLoaded', function() {
     nextButton.addEventListener('click', showNextSlide);
 
     function showPrevSlide() {
-        if (currentIndex > 0) {
-            currentIndex--;
-        } else {
-            currentIndex = slides.length - 2;
-        }
+        currentIndex = (currentIndex - 1 + slides.length) % slides.length;
         updateSlider();
     }
 
     function showNextSlide() {
-        if (currentIndex < slides.length - 2) {
-            currentIndex++;
-        } else {
-            currentIndex = 0;
-        }
+        currentIndex = (currentIndex + 1) % slides.length;
         updateSlider();
     }
 
     function updateSlider() {
         slides.forEach((slide, index) => {
-            if (index === currentIndex || index === currentIndex + 1) {
-                slide.style.display = 'block';
-            } else {
-                slide.style.display = 'none';
-            }
+            slide.style.display = index === currentIndex ? 'block' : 'none';
         });
     }
 });
+
+
+
+
+
+
+function openPopup(element) {
+    const popup = document.getElementById('popup');
+    const imgSrc = element.querySelector('img').src;
+    const popupImg = popup.querySelector('.popup-img');
+    popupImg.src = imgSrc;
+    popup.classList.add('show');
+}
+
+function closePopup() {
+    const popup = document.getElementById('popup');
+    popup.classList.remove('show');
+}
