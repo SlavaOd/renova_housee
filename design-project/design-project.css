@@ -100,7 +100,7 @@ th, td {
   background-color: aliceblue; }
 
 .list_conteiner {
-  width: 70%; }
+  width: 50%; }
   .list_conteiner h2 {
     font-size: 36px; }
   .list_conteiner span {
@@ -120,23 +120,31 @@ th, td {
     text-align: center; }
 
 .block_finish_design {
-  width: 80%;
+  width: 90%;
   margin: 0 auto; }
   .block_finish_design h2 {
-    color: black; }
+    color: black;
+    font-size: 36px; }
   .block_finish_design h2:nth-child(2) {
-    margin-left: 15%; }
-  .block_finish_design .finish_flex {
-    display: flex;
-    justify-content: center; }
-    .block_finish_design .finish_flex div {
-      width: 45%;
-      height: 290px;
-      margin-left: 10px; }
-    .block_finish_design .finish_flex .finish_img {
-      background-image: url(./img2.jpg);
-      background-size: contain;
-      background-repeat: no-repeat; }
+    margin-left: 15%;
+    margin-top: 0; }
+  .block_finish_design h2:first-of-type {
+    margin-bottom: 0; }
+  .block_finish_design .finish_flex div {
+    width: 40%;
+    height: 290px;
+    margin-left: 10px;
+    font-size: 20px;
+    line-height: 36px;
+    display: inline-block;
+    vertical-align: top; }
+  .block_finish_design .finish_flex .finish_img {
+    background-image: url(./img2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat; }
+  .block_finish_design p {
+    font-size: 20px;
+    margin: 0; }
 
 @media only screen and (max-width: 431px) {
   .list_conteiner {

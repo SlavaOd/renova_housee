@@ -116,9 +116,9 @@ table {
     background-color: aliceblue;
   }
   
-
+  
   .list_conteiner {
-    width: 70%;
+    width: 50%;
     h2 {
         font-size: 36px;
     }
@@ -146,27 +146,42 @@ table {
   }
 
 .block_finish_design {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     h2 {
         color: black;
+        font-size: 36px;
     }
     h2:nth-child(2) {
         margin-left: 15%;
+        margin-top: 0;
+    }
+    h2:first-of-type {
+        margin-bottom: 0;
     }
     .finish_flex {
-        display: flex;
-        justify-content: center;
+        // display: flex;
+        // justify-content: center;
+        
         div {
-            width: 45%;
+            width: 40%;
             height: 290px;
             margin-left: 10px;
+            font-size: 20px;
+            line-height: 36px;
+            display: inline-block;
+            vertical-align: top;
         }
         .finish_img {
             background-image: url(./img2.jpg);
             background-size: contain;
             background-repeat: no-repeat;
         }
+    }
+    p {
+        font-size: 20px;
+        margin: 0;
+        
     }
 }
 
@@ -198,6 +213,7 @@ table {
             .finish_img {
                 height: 220px;
                 margin-bottom: 20px;
+                
             }
         }
         h2:nth-child(2) {
