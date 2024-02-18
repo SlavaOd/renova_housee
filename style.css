@@ -173,8 +173,11 @@ body {
     display: inline-block;
     width: 60%;
     vertical-align: top;
-    line-height: 26px;
+    line-height: 24px;
     font-size: 20px;
+}
+.info_us_text p:last-of-type {
+    text-align: center;
 }
 
 .info_us_text h2,h3 {
