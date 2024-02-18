@@ -31,7 +31,15 @@ body {
             width: 100%;
             margin: 0;
         }
-
+        .background-image {
+            height: 500px;
+            background-image: url(main_imgtop.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-position: -130px 0px !important;
+        
+        }
     .call-button {
         color: rgb(242, 165, 11) !important;
         width: 220px !important;
