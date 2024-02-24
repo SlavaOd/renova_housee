@@ -591,7 +591,7 @@ background-color: #00282a;
         
         }  
         }
-        @media screen and (min-width: 1820px) {
+        @media screen and (min-width: 2200px) {
             .background-image {
                 background-repeat: no-repeat;
                 background-position: center center;
