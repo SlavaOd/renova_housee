@@ -294,7 +294,6 @@ body {
     margin: 0;
     text-align: left;
     font-size: 14px;
-    text-transform: lowercase;
     margin-left: 20px; /* Отступ для подсписка */
     
   }
@@ -316,6 +315,7 @@ body {
     cursor: pointer;
     margin-bottom: 15px;
     
+    
   }
 .first_li {
     border-radius: 20px 20px 20px 20px ;
@@ -326,7 +326,6 @@ body {
     position: relative;
     font-size: 16px;
     font-weight: bold;
-    text-transform: uppercase;
     
 }
 .first_li span {
