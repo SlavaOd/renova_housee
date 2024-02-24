@@ -115,7 +115,7 @@ body {
     text-align: center;
     display: block;
     margin: 0 auto;
-    padding-top: 3%;
+    padding-top: 4%;
     width: 100%;
     display: block;
     width: 70%;
@@ -575,3 +575,11 @@ background-color: #00282a;
 .our_team h3{
     text-align: center;
 }
+ @media screen and (min-width: 1800px) {
+    .background-image {
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-position: 0px -380px;
+    
+    }  
+    }
