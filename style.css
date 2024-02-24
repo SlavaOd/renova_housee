@@ -421,11 +421,13 @@ background-color: #00282a;
 .about_us_info h3 {
     text-align: start;
     color: rgb(242, 165, 11);
+    margin-bottom: 0;
 }
 
 .about_us_info p {
     /* padding: 0 2% 0 2%; */
     font-size: 20px;
+    margin-top: 0;
 
 }
 .advantages h2 {
@@ -591,11 +593,11 @@ background-color: #00282a;
         
         }  
         }
-        @media screen and (min-width: 2200px) {
+        @media screen and (min-width: 2000px) {
             .background-image {
                 background-repeat: no-repeat;
                 background-position: center center;
-                background-position: 70px -510px;
+                background-position: 70px -420px;
             
             }  
             }
