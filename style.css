@@ -133,8 +133,8 @@ body {
     cursor: pointer;
     transition: background-color 0.3s ease;
     color: rgb(242, 165, 11) ;
-    width: 220px ;
-    height: 100px ;
+    width: 285px ;
+    height: 65px ;
     font-size: 25px ;
     font-weight: bolder;
     background-color: aliceblue ;
@@ -415,11 +415,11 @@ background-color: #00282a;
 }
 .about_us_info h2:last-of-type {
     text-align: center;
-    color: rgb(242, 165, 11);
+    color: #ca994a;
 }
 .about_us_info h3 {
     text-align: start;
-    color: rgb(242, 165, 11);
+    color: #ca994a;
     margin-bottom: 0;
 }
 
@@ -591,6 +591,9 @@ background-color: #00282a;
             background-position: 0px -370px;
         
         }  
+        .content h2 {
+            padding-top: 2%;
+        }
         }
         @media screen and (min-width: 2000px) {
             .background-image {
