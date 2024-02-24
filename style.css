@@ -591,3 +591,11 @@ background-color: #00282a;
         
         }  
         }
+        @media screen and (min-width: 1820px) {
+            .background-image {
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-position: 70px -510px;
+            
+            }  
+            }
