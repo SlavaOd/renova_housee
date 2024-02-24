@@ -575,7 +575,7 @@ background-color: #00282a;
 .our_team h3{
     text-align: center;
 }
- @media screen and (min-width: 1800px) {
+ @media screen and (min-width: 1920px) {
     .background-image {
         background-repeat: no-repeat;
         background-position: center center;
