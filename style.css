@@ -93,6 +93,12 @@ body {
         font-size: 36px !important;
         margin-top: 70px !important;
     }
+    .info_us_img2 {
+        height: 300px;
+        width: 90%;
+        margin: 0 auto;
+        background-size: cover;
+    }
 }
 
 
