@@ -220,6 +220,7 @@ body {
 .info_us_text span {
     color: black;
     font-weight: bold;
+    font-size: 24px;
 }
 .div_advantages_item {
     width: 32%;
