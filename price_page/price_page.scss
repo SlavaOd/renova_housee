@@ -75,6 +75,10 @@ th {
     }
 }
 
+.background-image {
+    background-image: url(./price_img_top.jpg) !important;
+}
+
 @media only screen and (max-width: 431px) { 
     .info_us_img {
         display: none;

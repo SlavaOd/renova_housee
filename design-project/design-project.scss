@@ -4,7 +4,7 @@
     .main-section {
         .background-image {
             background-image: url(./img/photo_2024-02-15_15-07-22.jpg);
-            background-position: 0 0;
+            background-position: 0 -60px;
         }
     }
 }
@@ -216,8 +216,12 @@ table {
         display: block;
     }
     .block_finish_design {
+        height: 680px;
         h2 {
             font-size: 26px;
+        }
+        p {
+            width: 100%;
         }
         .finish_flex {
             display: block;
