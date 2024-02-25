@@ -121,17 +121,20 @@
     text-align: center !important;
  }
  
-.footer {
+.footer_flex {
     flex-direction: column;
+    padding-top: 0 !important;
 }
 .footer div {
     width: 86% !important;
-    padding-top: 35%;
+    padding-top: 7%;
+    margin: 0 auto;
 }
 .footer_logo img {
     width: 300px;
     left: 70px;
-    margin-bottom: 20%;
+    margin: 0 auto;
+    display: block;
 }
 .work_time h2 {
     text-align: center;
