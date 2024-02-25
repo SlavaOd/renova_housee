@@ -127,7 +127,7 @@ body {
     display: block;
     width: 70%;
     margin: 0 auto;
-    text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
+    text-shadow: 3px -2px 11px #423e3e, 1px -1px 0 #423e3e, 2px 0px 8px #423e3e, 1px 1px 12px #423e3e;
 }
 
 .call-button {

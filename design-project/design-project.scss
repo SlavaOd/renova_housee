@@ -4,6 +4,7 @@
     .main-section {
         .background-image {
             background-image: url(./img/photo_2024-02-15_15-07-22.jpg);
+            background-position: 0 0;
         }
     }
 }
@@ -168,7 +169,7 @@ table {
             height: 290px;
             margin-left: 10px;
             font-size: 20px;
-            line-height: 36px;
+            line-height: 52px;
             display: inline-block;
             vertical-align: top;
         }
@@ -181,12 +182,24 @@ table {
     p {
         font-size: 20px;
         margin: 0;
+        margin-top: 28px;
         
     }
 }
 
 
 @media only screen and (max-width: 431px) {
+    // h2 {
+    //     font: 26px;
+    // }
+    .project_about_block {
+        h2 {
+            font-size: 26px;
+        }
+        h3 {
+            font-size: 26px;
+        }
+    }
     .list_conteiner {
         margin: 0 auto;
         width: 90%;
@@ -197,18 +210,22 @@ table {
         display: block;
     }
     .block_finish_design {
+        h2 {
+            font-size: 26px;
+        }
         .finish_flex {
             display: block;
             div {
                 display: block;
                 width: 100%;
                 margin: 0;
+                line-height: 26px;
             }
             p {
                 margin: 0;
             }
             .finish_text {
-                height: 150px;
+                height: 220px;
             }
             .finish_img {
                 height: 220px;

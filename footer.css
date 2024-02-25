@@ -67,6 +67,7 @@
 }
 .contact p:last-of-type a {
     flex-grow: 1;
+    padding: 0;
 }
 .contact p:last-of-type a img {
     margin-left: 12px;
