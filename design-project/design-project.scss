@@ -154,7 +154,7 @@ table {
         font-size: 36px;
     }
     h2:nth-child(2) {
-        margin-left: 15%;
+        margin-left: 9%;
         margin-top: 0;
     }
     h2:first-of-type {
@@ -166,10 +166,10 @@ table {
         
         div {
             width: 40%;
-            height: 290px;
+            height: 285px;
             margin-left: 10px;
             font-size: 20px;
-            line-height: 52px;
+            line-height: 36px;
             display: inline-block;
             vertical-align: top;
         }
@@ -182,8 +182,14 @@ table {
     p {
         font-size: 20px;
         margin: 0;
-        margin-top: 28px;
+        width: 110%;
+        display: inline-block;
+        margin-left: auto;
+        // margin-top: 28px;
         
+    }
+    .block_finish_design_p {
+        margin-top: 20px;
     }
 }
 

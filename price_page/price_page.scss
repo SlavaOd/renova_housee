@@ -18,7 +18,10 @@ th {
 th {
     background-color: #f2f2f2;
 }
-
+.conteiner_happy_client {
+    width: 75%;
+    font-family: "Playfair Display", serif;
+}
 .main_list_conteiner {
     .sub-list {
         text-align: center;
@@ -30,13 +33,31 @@ th {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    height: 600px;
+    height: 650px;
     margin-left: 3%;
-    margin-right: 3%;
+    margin-right: 1%;
     width: 35%;
 }
 .info_us_text {
     width: 55%;
+    h2 {
+        color: #000;
+    }
+    span {
+        font-weight: bold;
+        font-size: 20px;
+    }
+    p:nth-child(6) {
+        text-align: left;
+    }
+}
+.conteiner_process div::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 5%;
+    width: 90%;
+    border-top: 2px solid rgb(242, 165, 11);
 }
 
 .first_li:last-of-type {
@@ -47,11 +68,12 @@ th {
     text-transform: uppercase;
     padding: 5px;
 }
-.conteiner_process div::before {
-    left: 0;
-    width: 100%;
-}
 
+.proc_block {
+    span {
+        left: -22px;
+    }
+}
 
 @media only screen and (max-width: 431px) { 
     .info_us_img {
@@ -72,7 +94,30 @@ th {
         font-size: 26px;
     }
     .happy_first_block p {
-        width: 66%;
+        width: 100%;
         margin-left: auto;
+    }
+    .conteiner_happy_client {
+        .happy_first_block {
+            display: block;
+            h2 {
+                display: block;
+                text-align: center;
+                width: 100%;
+                font-size: 36px;
+            }
+            p {
+                display: block;
+                text-align: center;
+                margin: 0;
+                padding-top: 2px;
+            }
+        }
+        .conteiner_process {
+            display: block;
+            div {
+                padding-top: 1px;
+            }
+        }
     }
 }

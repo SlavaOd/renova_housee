@@ -16,7 +16,13 @@ body {
       padding-bottom: 20px;
       border-bottom: 2px solid #fc6; }
       body .weapper .main_block h2 {
-        color: black; }
+        color: black;
+        font-size: 36px; }
+      body .weapper .main_block p {
+        font-size: 20px; }
+        body .weapper .main_block p span {
+          font-size: 24px;
+          font-weight: bolder; }
       body .weapper .main_block .gallery_block {
         display: flex;
         flex-wrap: wrap;
@@ -59,13 +65,13 @@ body {
         background-position: center;
         cursor: pointer; }
       body .weapper .social_web_conteiner :nth-child(2) {
-        background-image: url(../instagram_3955024.png);
+        background-image: url(../tik-tok_3670132.png);
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
         cursor: pointer; }
       body .weapper .social_web_conteiner :nth-child(3) {
-        background-image: url(../tik-tok_3670132.png);
+        background-image: url(../instagram_3955024.png);
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;

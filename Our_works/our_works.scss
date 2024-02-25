@@ -20,6 +20,14 @@ body {
             border-bottom: 2px solid #fc6 ;
             h2 {
                 color: black;
+                font-size: 36px;
+            }
+            p {
+                font-size: 20px;
+                span {
+                    font-size: 24px;
+                    font-weight: bolder;
+                }
             }
             .gallery_block {
                 display: flex;
@@ -75,14 +83,14 @@ body {
                 cursor: pointer;
             }
             :nth-child(2) {
-                background-image: url(../instagram_3955024.png);
+                background-image: url(../tik-tok_3670132.png);
                 background-repeat: no-repeat;
                 background-size: contain;
                 background-position: center;
                 cursor: pointer;
             }
             :nth-child(3) {
-                background-image: url(../tik-tok_3670132.png);
+                background-image: url(../instagram_3955024.png);
                 background-repeat: no-repeat;
                 background-size: contain;
                 background-position: center;
