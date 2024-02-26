@@ -61,6 +61,10 @@
     text-align: center;
     font-size: 22px;
 }
+
+.contact p a span {
+    font-size: 15px;
+}
 .contact p a img {
     width: 50px;
     height: 50px;

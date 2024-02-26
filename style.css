@@ -45,9 +45,9 @@ body {
         }
     .call-button {
         color: rgb(242, 165, 11) !important;
-        width: 300px !important;
-        height: 65px !important;
-        font-size: 25px !important;
+        width: 270px !important;
+        height: 50px !important;
+        font-size: 22px !important;
         font-weight: bolder;
         background-color: aliceblue !important;
         margin-top: 20% !important;
