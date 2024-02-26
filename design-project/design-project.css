@@ -201,6 +201,11 @@ th, td {
 
   .prev {
     left: 0; } }
+@media screen and (min-width: 2000px) {
+  .background-image {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-position: 0px -170px !important; } }
 .popup {
   position: fixed;
   top: 0;

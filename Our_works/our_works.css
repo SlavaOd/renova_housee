@@ -7,7 +7,7 @@ body {
   body .weapper {
     width: 90%;
     margin: auto;
-    background-color: #fff;
+    background-color: #f2f2ff;
     position: relative; }
     body .weapper .main-section .background-image {
       background-image: url(./img/main_imgtop.jpg); }
