@@ -179,12 +179,13 @@ table {
             background-image: url(./img2.jpg);
             background-size: contain;
             background-repeat: no-repeat;
+            background-position: center;
         }
     }
     p {
-        font-size: 20px;
+        font-size: 22px;
         margin: 0;
-        width: 110%;
+        width: 150%;
         display: inline-block;
         margin-left: auto;
         // margin-top: 28px;

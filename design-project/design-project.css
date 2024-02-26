@@ -143,11 +143,12 @@ th, td {
     .block_finish_design .finish_flex .finish_img {
       background-image: url(./img2.jpg);
       background-size: contain;
-      background-repeat: no-repeat; }
+      background-repeat: no-repeat;
+      background-position: center; }
   .block_finish_design p {
-    font-size: 20px;
+    font-size: 22px;
     margin: 0;
-    width: 110%;
+    width: 150%;
     display: inline-block;
     margin-left: auto; }
   .block_finish_design .block_finish_design_p {
