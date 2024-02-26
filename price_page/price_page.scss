@@ -80,6 +80,15 @@ th {
 }
 
 @media only screen and (max-width: 431px) { 
+    .background-image {
+        height: 500px;
+        background-image: url(main_imgtop.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-position: -550px 0px !important;
+    
+    }
     .info_us_img {
         display: none;
     }
@@ -125,3 +134,31 @@ th {
         }
     }
 }
+
+@media screen and (min-width: 1600px) {
+    .background-image {
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-position: 0px -40px !important;
+    
+    }  
+    }
+    @media screen and (min-width: 1820px) {
+        .background-image {
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-position: 0px -120px;
+        
+        }  
+        .content h2 {
+            padding-top: 2%;
+        }
+        }
+        @media screen and (min-width: 2000px) {
+            .background-image {
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-position: 0px -170px !important;
+            
+            }  
+            }
