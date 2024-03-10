@@ -118,6 +118,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    position: relative;
     /* background-position: 0px -250px; */
 
 }
@@ -125,7 +126,7 @@ body {
 .content {
     color: #af8c53; 
     border-top: 1px solid transparent;
-    position: relative;
+    /* position: relative; */
 }
 
 .content a {
