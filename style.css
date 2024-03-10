@@ -41,6 +41,7 @@ body {
             background-repeat: no-repeat;
             background-position: center center;
             background-position: -130px 0px !important;
+            position: static !important;
         
         }
         .promo {

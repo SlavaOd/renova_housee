@@ -137,7 +137,7 @@ nav {
     width: 100%;
     position: absolute;
     background-color: #333;
-    top: 0;
+    top: 45px;
     left: 0;
     opacity: 1;
 }
@@ -207,7 +207,7 @@ nav.show {
 }
 
 nav a {
-    width: 93%;
+    /* width: 100%; */
     text-align: center;
 }
 .conteiner_happy_client {
