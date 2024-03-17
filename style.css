@@ -63,7 +63,20 @@ body {
         border-radius: 20px;
     }
     .work_us h2 {
+        display: none;
         font-size: 15px;
+    }
+    .marquee-container {
+        display: block !important;
+        
+    }
+    .marquee {
+        margin: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #00282a;
+        color: #f2f2ff !important ;
+        font-size: 26px !important;
     }
     .compleks {
         display: flex;
@@ -217,7 +230,29 @@ body {
     margin-bottom: 20px;
     text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
 }
-
+.marquee-container {
+    display: none;
+}
+.marquee {
+    font-size: 40px;
+    color: red;
+    font-weight: bold;
+    position: absolute;
+    line-height: 50px;
+    white-space: nowrap;
+    /* Предотвращает перенос текста */
+    animation: marquee 10s linear infinite;
+    /* Продолжительность анимации */ }
+    .marquee span {
+      text-decoration: line-through; }
+  
+  @keyframes marquee {
+    0% {
+      left: 0%; }
+    /* Начальное положение справа */
+    100% {
+      left: -100%; }
+    /* Конечное положение слева */ }
 .work_us h2 {
     margin: 0;
     padding-top: 20px;
