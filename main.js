@@ -33,3 +33,9 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 });
+
+
+function toggleFeedbackMenu() {
+  var menu = document.getElementById('feedbackMenu');
+  menu.style.display = (menu.style.display === 'block') ? 'none' : 'block';
+}

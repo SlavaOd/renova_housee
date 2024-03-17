@@ -130,6 +130,9 @@ body {
         margin: 0 auto;
         background-size: cover;
     }
+    .feedback-container {
+        left: 20px !important;
+    }
 }
 
 
@@ -170,14 +173,14 @@ body {
 }
 .promo {
     padding: 5px;
-    border: 6px solid #ca994a;
+    border: 3px solid #ca994a;
     position: absolute;
     bottom: 1%;
     right: 5%;
     color: #ca994a;
     font-weight: bold;
     font-size: 26px;
-    text-shadow: 3px -2px 11px #423e3e, 1px -1px 0 #423e3e, 2px 0px 8px #423e3e, 1px 1px 12px #423e3e;
+    /* text-shadow: 3px -2px 11px #b1a0a0, 1px -1px 0 #b1a0a0, 2px 0px 8px #b1a0a0, 1px 1px 12px #b1a0a0; */
     animation: colorChange 3s infinite;
     border-radius: 10px;
 }
@@ -709,3 +712,77 @@ background-color: #00282a;
             
             }  
             }
+
+
+
+            .feedback-container {
+                position: fixed;
+                bottom: 20px;
+                left: 6%;
+            }
+            
+            .feedback-btn {
+                width: 70px;
+                height: 70px;
+                background-color: #333;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                z-index: 9999;
+                animation: pulse 0.8s infinite alternate; /* Анимация пульсации */
+            }
+            
+            .feedback-btn img {
+                width: 70px;
+                height: 70px;
+            }
+            
+            .feedback-menu {
+                display: none;
+                position: absolute;
+                bottom: 60px;
+                left: 5;
+            }
+            
+            .feedback-menu a {
+                display: block;
+                margin-bottom: 10px;
+            }
+            .feedback-menu a:hover {
+                background-color: transparent !important;
+            }
+            .feedback-menu img {
+                width: 60px;
+                height: 60px;
+            }
+            /* Добавляем анимацию для появления выпадающего меню */
+.feedback-menu {
+    bottom: 70px !important;
+    display: none;
+    position: absolute;
+    bottom: 60px;
+    left: 5px;
+    animation: slideIn 0.5s forwards; /* Анимация появления */
+}
+
+/* CSS-ключевые кадры для анимации */
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px); /* Начальное положение */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0); /* Конечное положение */
+    }
+}
+@keyframes pulse {
+    0% {
+        transform: scale(1); /* Начальный размер */
+    }
+    100% {
+        transform: scale(1.2); /* Увеличенный размер */
+    }
+}
