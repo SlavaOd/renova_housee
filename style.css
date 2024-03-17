@@ -150,7 +150,7 @@ body {
 }
 .promo {
     padding: 5px;
-    border: 2px solid #ca994a;
+    border: 6px solid #ca994a;
     position: absolute;
     bottom: 1%;
     right: 5%;
@@ -158,6 +158,20 @@ body {
     font-weight: bold;
     font-size: 26px;
     text-shadow: 3px -2px 11px #423e3e, 1px -1px 0 #423e3e, 2px 0px 8px #423e3e, 1px 1px 12px #423e3e;
+    animation: colorChange 3s infinite;
+    border-radius: 10px;
+}
+
+@keyframes colorChange {
+    0% {
+        border-color: #966e2d; /* Начальный цвет бордера */
+    }
+    50% {
+        border-color: red; /* Половина времени - новый цвет бордера */
+    }
+    100% {
+        border-color: #966e2d; /* Конечный цвет бордера */
+    }
 }
 
 .promo h3 {
