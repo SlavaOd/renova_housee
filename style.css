@@ -74,6 +74,7 @@ body {
         height: 65px;
         text-align: center;    
         
+        
     }
     .marquee {
         margin: 0;
@@ -82,6 +83,7 @@ body {
         background-color: #00282a;
         color: #f2f2ff !important ;
         font-size: 26px !important;
+         white-space: nowrap;
     }
     .compleks {
         display: flex;
@@ -248,15 +250,13 @@ body {
     /* Предотвращает перенос текста */
     animation: marquee 10s linear infinite;
     /* Продолжительность анимации */ }
-    .marquee span {
-      text-decoration: line-through; }
   
   @keyframes marquee {
     0% {
-      left: 0%; }
+      left: 3%; }
     /* Начальное положение справа */
     100% {
-      left: -100%; }
+      left: -200%; }
     /* Конечное положение слева */ }
 .work_us h2 {
     margin: 0;

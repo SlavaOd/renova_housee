@@ -155,10 +155,12 @@ th, td {
     margin-top: 20px; }
 
 @media only screen and (max-width: 431px) {
-  .project_about_block h2 {
-    font-size: 26px; }
-  .project_about_block h3 {
-    font-size: 26px; }
+  .project_about_block {
+    width: 100%; }
+    .project_about_block h2 {
+      font-size: 26px; }
+    .project_about_block h3 {
+      font-size: 26px; }
 
   .list_conteiner {
     margin: 0 auto;
