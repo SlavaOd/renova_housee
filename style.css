@@ -36,7 +36,7 @@ body {
         }
         .background-image {
             height: 500px;
-            background-image: url(main_imgtop.jpg);
+            background-image: url(main_imgtop.webp);
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center center;
@@ -123,6 +123,14 @@ body {
      .for_mob {
         display: inline !important;
     }
+    .price_h2_pc {
+        display: none !important;
+
+    }
+    .price_h2_mob {
+        display: inline !important;
+        text-align: c;
+    }
     .content h2 {
         font-size: 36px !important;
         margin-top: 70px !important;
@@ -141,6 +149,12 @@ body {
     }
     .feedback-container {
         left: 20px !important;
+    }
+    .price_pc {
+        display: none;
+    }
+    .price_mob {
+        display: block !important;
     }
 }
 
@@ -168,7 +182,7 @@ body {
 
 .content h2 {
     text-align: start !important;
-    font-size: 70px;
+    font-size: 69px;
     margin-bottom: 20px;
     text-align: center;
     display: block;
@@ -232,7 +246,7 @@ body {
     color: rgb(242, 165, 11) ;
     /* width: 285px ;
     height: 65px ; */
-    font-size: 50px ;
+    font-size: 30px ;
     font-weight: bolder;
     /* background-color: aliceblue ; */
     opacity: 0.7;
@@ -331,6 +345,7 @@ body {
 .info_us_text h2,h3 {
     text-align: center;
     margin-top: 0;
+    font-size: 24px;
     /* color: #fc6; */
 }
 .info_us_text span {
@@ -406,8 +421,12 @@ body {
     border-bottom: #fc6 2px solid ;
     text-align: center;
     color: #f2f2ff  ;
+    font-size: 29px;
+    margin-top: 0;
 }
-
+.price_mob {
+    display: none;
+}
 .main_list_conteiner h3 {
     color: #f2f2ff  ;
 }
@@ -423,7 +442,7 @@ body {
     padding-left: 0 !important;
     margin: 0;
     text-align: left;
-    font-size: 14px;
+    font-size: 18px;
     margin-left: 20px; /* Отступ для подсписка */
     
   }
@@ -441,7 +460,7 @@ body {
     
   }
   .main-list li {
-    background-color: #fff    ;
+    background-color: #f2f2ff;
     cursor: pointer;
     margin-bottom: 15px;
     padding: 5px;
@@ -533,7 +552,9 @@ background-color: #00282a;
     display: none;
 }
 
-
+.price_h2_mob {
+    display: none;
+}
 
 
 
