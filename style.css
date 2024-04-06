@@ -199,11 +199,13 @@ body {
 }
 .promo {
     padding: 5px;
+    text-align: center;
     border: 4px solid #AFABAB;
     position: absolute;
     bottom: 1%;
     right: 5%;
-    color: #ca994a;
+    left: 65%;
+    color: #fff;
     font-weight: bold;
     font-size: 26px;
     background-color: #00282a;
@@ -211,6 +213,25 @@ body {
     /* text-shadow: 3px -2px 11px #b1a0a0, 1px -1px 0 #b1a0a0, 2px 0px 8px #b1a0a0, 1px 1px 12px #b1a0a0; */
     animation: colorChange 3s infinite;
     /* border-radius: 10px; */
+    overflow: hidden; /* Обрезать все, что выходит за пределы блока */
+}
+.promo::after {
+    content: ''; /* Добавить псевдоэлемент */
+    position: absolute;
+    width: 200%; /* Увеличенная ширина для создания эффекта бегущей полоски */
+    height: 50%; /* Высота полоски */
+    background-color: #ca994a; /* Цвет полоски */
+    animation: shine-animation 4s infinite; /* Анимация движения полоски */
+    transform: rotate(45deg); /* Поворот полоски на 45 градусов */
+}
+
+@keyframes moveStripe {
+    0% {
+        left: -100%; /* Начальное положение за пределами блока */
+    }
+    100% {
+        left: 100%; /* Конечное положение за пределами блока */
+    }
 }
 
 /* @keyframes colorChange {
@@ -267,7 +288,7 @@ body {
     cursor: pointer;
   }
   
-  .shine-button::after {
+  /* .shine-button::after {
     content: '';
     position: absolute;
     top: -100%;
@@ -276,7 +297,7 @@ body {
     height: 200%;
     background: linear-gradient(45deg, rgba(255, 255, 255, 0) 0%, #ca994a 50%, rgba(255, 255, 255, 0) 100%);
     animation: shine-animation 4s infinite;
-  }
+  } */
   
   @keyframes shine-animation {
     0% {
@@ -770,12 +791,15 @@ background-color: #00282a;
 .our_team h3{
     text-align: center;
 }
-@media screen and (min-width: 390px) {
+@media screen and (min-width: 390px) and (max-width: 450px) {
     /* .header_tel {
         margin-right: 3px !important;
     } */
     .promo {
         font-size: 22px !important;
+        position: absolute !important;
+        bottom: 44%;
+        left: 4%;
     }
     .first_li {
         font-size: 18px !important;
