@@ -16,7 +16,7 @@ body {
     
 }
 .weapper {
-    width: 90%;
+    width: 100%;
     margin: auto;
     background-color: #f2f2ff ;
     
@@ -33,6 +33,9 @@ body {
         .weapper {
             width: 100%;
             margin: 0;
+        }
+        .header_tel {
+            margin-right: 15px;
         }
         .background-image {
             height: 500px;
@@ -52,7 +55,7 @@ body {
             /* margin-top: 10px; */
         }
     .call-button {
-        color: rgb(242, 165, 11) !important;
+        /* color: rgb(242, 165, 11) !important; */
         border: 4px solid #AFABAB !important;
         /* width: 270px !important;
         height: 50px !important; */
@@ -161,7 +164,7 @@ body {
 
 .background-image {
     height: 500px;
-    background-image: url(main_imgtop.jpg);
+    background-image: url(main_imgtop.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -203,6 +206,8 @@ body {
     color: #ca994a;
     font-weight: bold;
     font-size: 26px;
+    background-color: #00282a;
+    opacity: 0.7;
     /* text-shadow: 3px -2px 11px #b1a0a0, 1px -1px 0 #b1a0a0, 2px 0px 8px #b1a0a0, 1px 1px 12px #b1a0a0; */
     animation: colorChange 3s infinite;
     /* border-radius: 10px; */
@@ -243,16 +248,48 @@ body {
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    color: rgb(242, 165, 11) ;
+    color: rgb(14, 13, 13) ;
     /* width: 285px ;
     height: 65px ; */
     font-size: 30px ;
     font-weight: bolder;
-    /* background-color: aliceblue ; */
+    background-color:rgb(227, 224, 218) ;
     opacity: 0.7;
 
-    /* box-shadow: 1px 0px 17px -2px #423E49; */
 }
+.shine-button {
+    position: relative;
+    overflow: hidden;
+    background-color: #00282a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .shine-button::after {
+    content: '';
+    position: absolute;
+    top: -100%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0) 0%, #ca994a 50%, rgba(255, 255, 255, 0) 100%);
+    animation: shine-animation 4s infinite;
+  }
+  
+  @keyframes shine-animation {
+    0% {
+      transform: translateX(-150%) rotate(45deg);
+    }
+    100% {
+      transform: translateX(150%) rotate(45deg);
+    }
+  }
+  
+  .shine-button:hover::after {
+    display: none;
+  }
 .call-button:hover {
     background-color: #ccc; 
 }
@@ -311,13 +348,13 @@ body {
 }
 
 .info_us_img1 {
-    background-image: url(./img/info_us_img1.jpg);
+    background-image: url(./img/info_us_img1.webp);
 }
 .info_us_img2 {
-    background-image: url(./img/info_us_img2.jpg);
+    background-image: url(./img/info_us_img2.webp);
 }
 .info_us_img3 {
-    background-image: url(./img/info_us_img3.jpg);
+    background-image: url(./img/info_us_img3.webp);
 }
 .info_us_text {
     display: inline-block;
@@ -484,6 +521,7 @@ body {
     font-size: 35px;
     position: absolute;
     left: 5px;
+    font-weight: 700;
     top: -10px;
 }
 
@@ -732,6 +770,22 @@ background-color: #00282a;
 .our_team h3{
     text-align: center;
 }
+@media screen and (min-width: 390px) {
+    /* .header_tel {
+        margin-right: 3px !important;
+    } */
+    .promo {
+        font-size: 22px !important;
+    }
+    .first_li {
+        font-size: 18px !important;
+    }
+    .contact p {
+        font-size: 20px !important;
+    }
+    .content h2 {
+    width: 75% !important;
+    }
  @media screen and (min-width: 1600px) {
     .background-image {
         background-repeat: no-repeat;
@@ -841,4 +895,5 @@ background-color: #00282a;
     100% {
         transform: scale(1.2); /* Увеличенный размер */
     }
+}
 }
